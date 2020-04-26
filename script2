@@ -1,0 +1,35 @@
+#test box mesh
+push
+move
+150 200 0
+rotate
+y 20
+rotate
+x 20
+box
+0 0 0 200 100 400
+save
+box.ppm
+#clear everything, test sphere again
+clear
+rotate
+z 60
+rotate
+y 30
+sphere
+150 0 0 200
+save
+sphere.ppm
+#clear everything, test torus again
+clear
+rotate
+z 30
+rotate
+y 30
+rotate
+x 45
+torus
+150 0 0 75 150
+save
+torus.ppm
+
